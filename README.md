@@ -11,6 +11,6 @@ Likewise, if you want to read up on the different Zodiac signs and their respect
 This project was made using the following:
   -  Linux Ubuntu 64bit 16.2 running in VMware Worksation 16
   -  Python 3.10.6
-    -  You'll need the following modules:
+  -  You'll need the following modules:
       -  Pandas; Matplotlib; Seaborn
   -  Visual Studio Code
