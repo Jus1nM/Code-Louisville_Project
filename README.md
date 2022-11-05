@@ -7,3 +7,10 @@ For this project, I decided to use a sample size of 50 people, and what better s
 Unfortunately, finding people's Myers-Briggs' test results proved to be quite difficult.  So, for the sake of this project, I decided to substitute the Myers-Briggs test results with Zodiac signs instead, as these are much more accessible.
 If you are unfamiliar with the Myers-Briggs personality types, you can read about them here:  https://www.myersbriggs.org/
 Likewise, if you want to read up on the different Zodiac signs and their respective elements, go here:  https://www.zodiacsign.com/
+
+This project was made using the following:
+  -  Linux Ubuntu 64bit 16.2 running in VMware Worksation 16
+  -  Python 3.10.6
+    -  You'll need the following modules:
+      -  Pandas; Matplotlib; Seaborn
+  -  Visual Studio Code
