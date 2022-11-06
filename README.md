@@ -14,4 +14,4 @@ This project was made using the following:
   -  You'll need the following modules:
       -  Pandas; Matplotlib; Seaborn
   -  Visual Studio Code
-    - I used Jupyter notebook with VScode
+    - I used a Jupyter notebook within VScode
