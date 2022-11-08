@@ -15,8 +15,8 @@ This project was made using the following:
     - I used a Jupyter notebook within VScode
   -  You will need the following modules:
       -  Pandas; Matplotlib; Seaborn
-        - pip install Pandas
-        - pip install Matplotlib
-        - pip install Seaborn
+         - pip install Pandas
+         - pip install Matplotlib
+         - pip install Seaborn
         
   *To make it easier to read the CSV file to run the code, I recommend having the CSV file in the same directory as the .ipynb file.  Otherwise, you'll need to specify the path to the .csv for the Pandas csv_reader.*
