@@ -15,6 +15,7 @@ This project was made using the following:
     - I used a Jupyter notebook within VScode
   -  You will need the following modules:
       -  Pandas; Matplotlib; Seaborn
+        - In your terminal:
          - pip install Pandas
          - pip install Matplotlib
          - pip install Seaborn
