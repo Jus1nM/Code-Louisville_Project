@@ -9,7 +9,6 @@ If you are unfamiliar with the Myers-Briggs personality types, you can read abou
 Likewise, if you want to read up on the different Zodiac signs and their respective elements, go here:  https://www.zodiacsign.com/
 
 This project was made using the following:
-  -  Linux Ubuntu 64bit 16.2 running in VMware Worksation 16
   -  Python 3.10.6
   -  Visual Studio Code
     - I used a Jupyter notebook within VScode
