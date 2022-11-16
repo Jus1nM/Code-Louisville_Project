@@ -1,4 +1,4 @@
-# Personality types in business
+## Personality types in business
 
 The idea behind this project was inspired by the documentary, "Persona:  The Dark Truth Behind Personality Tests."
 This documentary explores the origins of the popular personality test, Myers-Briggs, developed by a mother and daughter who were inspired by Carl Jung's book, "Psychological Types."
