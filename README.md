@@ -24,3 +24,11 @@ This project was made using the following:
 About the data used in this project:  
 The Forbes Fortune 50 list can be found here:  https://fortune.com/fortune500/2022/search/  
 As for the CEO's zodiac signs, I had to look each one using Google.  The more well-known CEOs were easy to find but for the others, I had to look up their birthdays to determine their zodiac sign.  I also used Google to find their networth.  Then I compiled all the data into a CSV file.
+
+This project implements the following features:  
+  -  Read in data from a local csv
+  -  Create custom function to clean/manipulate data (fix a typo and shorten industry names)
+  -  Perform at least 5 calculations (for example: .sum() or .mean())
+  -  Create custom functions to operate on data (created sub-dataframes to determine most occuring sign within a particular element type)
+  -  Visualize data using: made more than 2 graphs using matplotlib and seaborn
+  -  Incorporate markdown within the Jupyter ntoebook
