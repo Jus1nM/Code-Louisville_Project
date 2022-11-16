@@ -27,7 +27,7 @@ As for the CEO's zodiac signs, I had to look each one using Google.  The more we
 
 This project implements the following features:  
   -  Read in data from a local csv
-  -  Create custom function to clean/manipulate data (fix a typo and shorten industry names)
+  -  Create custom function to clean/manipulate data (fix a typo and shorten industry names; add dollar sign and commas to easier read monetary values)
   -  Perform at least 5 calculations (for example: .sum() or .mean())
   -  Create custom functions to operate on data (created sub-dataframes to determine most occuring sign within a particular element type)
   -  Visualize data using: made more than 2 graphs using matplotlib and seaborn
