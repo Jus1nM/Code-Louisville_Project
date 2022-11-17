@@ -1,17 +1,54 @@
-## Code-Louisville_Project
-#Code Louisville Data Analytics project 1
+# Personality types in business
+
 The idea behind this project was inspired by the documentary, "Persona:  The Dark Truth Behind Personality Tests."
 This documentary explores the origins of the popular personality test, Myers-Briggs, developed by a mother and daughter who were inspired by Carl Jung's book, "Psychological Types."
 I won't go into detail about the documentary here - you'll need to watch it for yourself.  However, the documentary made me wonder, "which personalities, if any, are more often successful in business?  Do certain personalities gravitate toward a particular field or industry?  Do some personalities make more money than others?
 For this project, I decided to use a sample size of 50 people, and what better sample to use other than CEOs from the Fortune 50, the top 50 companies within the United States?
 Unfortunately, finding people's Myers-Briggs' test results proved to be quite difficult.  So, for the sake of this project, I decided to substitute the Myers-Briggs test results with Zodiac signs instead, as these are much more accessible.
 If you are unfamiliar with the Myers-Briggs personality types, you can read about them here:  https://www.myersbriggs.org/
-Likewise, if you want to read up on the different Zodiac signs and their respective elements, go here:  https://www.zodiacsign.com/
+Likewise, if you want to read up on the different Zodiac signs and their respective elements, go here:  https://cafeastrology.com/
+
+About the zodiac signs:
+  - Aries - trailblazer; independent; competitive; blunt; short temper
+  - Aquarius - individual/unique; believe in change and evolution; making the world a better place
+  - Cancer - emotional; intuitive; can be prickly and standoffish; hates small talk; psychic
+  - Capricorn - smart; hardworking; in control; stubborn; adept at making and investing money
+  - Gemini - energetic and quick witted; smart; passionate; great communicator
+  - Leo - bold; intelligent; courageous; natural leader; high self-esteem; proud
+  - Libra - intelligent; kind; values harmony; appreciates aesthetics; diplomatic; daydreamer
+  - Pisces - smart; creative; deeply intuitive; sensitive
+  - Sagittarius - independent; strong-willed; leader; adventurous; generous
+  - Scorpio - passionate; independent; authentic; intimidating; prickly exterior
+  - Taurus - ambitious; trustworthy; stubborn; hard worker
+  - Virgo - sophisticated; kind; practical; big-picture thinker; planner; smart
+
+About the four elements:
+  - Water signs: (cancer, scorpio, pisces) highly imaginative; creative; insightful
+  - Air signs: (aquarius, libra, gemini) great communicators, good with data and information
+  - Fire signs: (aries, leo, sagittarius) enthusiastic, bold, aggressive
+  - Earth signs: (taurus, virgo, capricorn) hard workers, grounded, practical
 
 This project was made using the following:
-  -  Linux Ubuntu 64bit 16.2 running in VMware Worksation 16
   -  Python 3.10.6
-  -  You'll need the following modules:
-      -  Pandas; Matplotlib; Seaborn
   -  Visual Studio Code
     - I used a Jupyter notebook within VScode
+  -  You will need the following modules:
+      -  Pandas; Matplotlib; Seaborn
+        - In your terminal:
+          - pip install pandas
+          - pip install matplotlib
+          - pip install seaborn
+        
+  *To make it easier to read the CSV file to run the code, I recommend having the CSV file in the same directory as the .ipynb file.  Otherwise, you'll need to specify the path to the .csv for the Pandas csv_reader.*
+
+About the data used in this project:  
+The Forbes Fortune 50 list can be found here:  https://fortune.com/fortune500/2022/search/  
+As for the CEO's zodiac signs, I had to look each one up using Google.  The more well-known CEOs were easy to find but for the others, I had to look up their birthdays to determine their zodiac sign.  I also used Google to find their networth.  Then I compiled all the data into a CSV file.
+
+This project implements the following features:  
+  -  Read in data from a local csv
+  -  Create custom function to clean/manipulate data (fix a typo and shorten industry names; add dollar sign and commas to easier read monetary values)
+  -  Perform at least 5 calculations (for example: .sum() or .mean())
+  -  Create custom functions to operate on data (created sub-dataframes to determine most occuring sign within a particular element type)
+  -  Visualize data using: made more than 2 graphs using matplotlib and seaborn
+  -  Incorporate markdown within the Jupyter ntoebook
