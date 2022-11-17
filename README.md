@@ -9,24 +9,24 @@ If you are unfamiliar with the Myers-Briggs personality types, you can read abou
 Likewise, if you want to read up on the different Zodiac signs and their respective elements, go here:  https://cafeastrology.com/
 
 About the zodiac signs:
-  - Aries
-  - Aquarius
-  - Cancer
-  - Capricorn
-  - Gemini
-  - Leo
-  - Libra
-  - Pisces
-  - Sagittarius
-  - Scorpio
-  - Taurus
-  - Virgo
+  - Aries - trailblazer; independent; competitive; blunt; short temper
+  - Aquarius - individual/unique; believe in change and evolution; making the world a better place
+  - Cancer - emotional; intuitive; can be prickly and standoffish; hates small talk; psychic
+  - Capricorn - smart; hardworking; in control; stubborn; adept at making and investing money
+  - Gemini - energetic and quick witted; smart; passionate; great communicator
+  - Leo - bold; intelligent; courageous; natural leader; high self-esteem; proud
+  - Libra - intelligent; kind; values harmony; appreciates aesthetics; diplomatic; daydreamer
+  - Pisces - smart; creative; deeply intuitive; sensitive
+  - Sagittarius - independent; strong-willed; leader; adventurous; generous
+  - Scorpio - passionate; independent; authentic; intimidating; prickly exterior
+  - Taurus - ambitious; trustworthy; stubborn; hard worker
+  - Virgo - sophisticated; kind; practical; big-picture thinker; planner; smart
 
 About the four elements:
-  - Water signs:
-  - Air signs:
-  - Fire signs:
-  - Earth signs:
+  - Water signs: (cancer, scorpio, pisces) highly imaginative; creative; insightful
+  - Air signs: (aquarius, libra, gemini) great communicators, good with data and information
+  - Fire signs: (aries, leo, sagittarius) enthusiastic, bold, aggressive
+  - Earth signs: (taurus, virgo, capricorn) hard workers, grounded, practical
 
 This project was made using the following:
   -  Python 3.10.6
