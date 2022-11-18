@@ -8,9 +8,9 @@ Unfortunately, finding people's Myers-Briggs' test results proved to be quite di
 If you are unfamiliar with the Myers-Briggs personality types, you can read about them here:  https://www.myersbriggs.org/
 Likewise, if you want to read up on the different Zodiac signs and their respective elements, go here:  https://cafeastrology.com/
 
-About the zodiac signs:
+Zodiac personality traits:
   - Aries - trailblazer; independent; competitive; blunt; short temper
-  - Aquarius - individual/unique; believe in change and evolution; making the world a better place
+  - Aquarius - individual/unique; believe in change and evolution; making the world a better place; idealist
   - Cancer - emotional; intuitive; can be prickly and standoffish; hates small talk; psychic
   - Capricorn - smart; hardworking; in control; stubborn; adept at making and investing money
   - Gemini - energetic and quick witted; smart; passionate; great communicator
@@ -31,24 +31,24 @@ About the four elements:
 This project was made using the following:
   -  Python 3.10.6
   -  Visual Studio Code
-    - I used a Jupyter notebook within VScode
+    - I used a Jupyter notebook within VScode (.ipynb file)
   -  You will need the following modules:
-      -  Pandas; Matplotlib; Seaborn
+      -  pandas; matplotlib; seaborn
         - In your terminal:
           - pip install pandas
           - pip install matplotlib
           - pip install seaborn
         
-  *To make it easier to read the CSV file to run the code, I recommend having the CSV file in the same directory as the .ipynb file.  Otherwise, you'll need to specify the path to the .csv for the Pandas csv_reader.*
-
+  *To make it easier to read the CSV file to run the code, I recommend having the CSV file in the same directory as the .ipynb file.  Otherwise, you'll need to specify the path to the .csv for the Pandas csv_reader.  The .ipynb file and .csv are already packaged together for you in the folder "Project".*
+  
 About the data used in this project:  
 The Forbes Fortune 50 list can be found here:  https://fortune.com/fortune500/2022/search/  
-As for the CEO's zodiac signs, I had to look each one up using Google.  The more well-known CEOs were easy to find but for the others, I had to look up their birthdays to determine their zodiac sign.  I also used Google to find their networth.  Then I compiled all the data into a CSV file.
+As for the CEO's zodiac signs, I had to look each one up using Google.  The more well-known CEOs were easy to find but for the others, I had to look up their birthdays to determine their zodiac sign.  I also used Google to find their networth.  Then I compiled all the data into a CSV file.  The type of data found within the .csv file is mostly string values (Company name, Industry = type of company, CEO's name, CEO's zodiac sign and respective element type); the rest of the data is integer values - each CEO's networth.
 
 This project implements the following features:  
   -  Read in data from a local csv
-  -  Create custom function to clean/manipulate data (fix a typo and shorten industry names; add dollar sign and commas to easier read monetary values)
-  -  Perform at least 5 calculations (for example: .sum() or .mean())
+  -  Create custom function to clean/manipulate data (fix a typo and shorten industry names to fit on a graph; add dollar sign and commas to easier read monetary values)
+  -  Perform more than 5 calculations (.sum(), .mean(), .median(), .mode(), calculate range, averages and percents)
   -  Create custom functions to operate on data (created sub-dataframes to determine most occuring sign within a particular element type)
-  -  Visualize data using: made more than 2 graphs using matplotlib and seaborn
-  -  Incorporate markdown within the Jupyter ntoebook
+  -  Visualize data using: made more than 2 different types of graphs using matplotlib and seaborn
+  -  Incorporate markdown within the Jupyter ntoebook:  used markdown cells to describe the data being presented along with a brief conclusion at the end.
