@@ -39,7 +39,7 @@ This project was made using the following:
           - pip install matplotlib
           - pip install seaborn
         
-  *To make it easier to read the CSV file to run the code, I recommend having the CSV file in the same directory as the .ipynb file.  Otherwise, you'll need to specify the path to the .csv for the Pandas csv_reader.  The .ipynb file and .csv are already packaged together for you in the folder "Project".*
+  *To make it easier to read the CSV file to run the code, I recommend having the CSV file in the same directory as the .ipynb file.  Otherwise, you'll need to specify the path to the .csv for the Pandas csv_reader.  The .ipynb file and .csv are already packaged together for you in the folder "Project". Once you have cloned the repo and installed the modules (pandas,matplotlib/seaborn), all you should need to do is click "Run All".*
   
 About the data used in this project:  
 The Forbes Fortune 50 list can be found here:  https://fortune.com/fortune500/2022/search/  
